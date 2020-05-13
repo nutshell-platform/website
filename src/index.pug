@@ -4,6 +4,41 @@ html( lang=content.lang )
 	include pug/_header.pug
 	body
 		main
-			h1 Hello sir
-			h2 How are you
+
+			//- Hero bar
+			div#hero.center
+				img( src='/assets/undraw_people_tax5-cropped.svg' ).cover
+				h1 Nutshell
+				h2 One message a week from people you care about
+				include pug/_ctas.pug
+
+			//- Release section
+			section
+				div.description
+					h2 Only on mondays
+					p Messages are released once a week. You have all week to read your messages.
+				img( src='/assets/undraw_friends_online_klj6.svg' ).cover.right
+
+			//- Writing section
+			section
+				div.description.end
+					h2 Write all week
+					p You can draft and edit your message all week long and set it to auto-publish next monday
+				img( src='/assets/undraw_typewriter_i8xd.svg' ).cover.left
+
+			//- Release section
+			section
+				div.description
+					h2 Skimmable format
+					p Every message can be collapsed/expanded so you can focus on what you care about
+				img( src='/assets/undraw_team_chat_y27k.svg' ).cover.right
+
+
+			section
+				div.description.end
+					h2.center Get started now
+					include pug/_ctas.pug
+				img( src='/assets/undraw_through_the_park_lxnl.svg' ).cover.left
+
+
 		include pug/_footer.pug
