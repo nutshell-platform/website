@@ -1,0 +1,11 @@
+- const page = { title: 'Nutshell', desc: 'Terms of service', published: '2020-05-14', url: '/privacy-policy.html', featuredimg: '/image.jpg' }
+doctype html
+html( lang=content.lang )
+	include pug/_header.pug
+	body
+		main
+			section
+				include:markdown-it markdown/tos.md
+
+
+		include pug/_footer.pug
