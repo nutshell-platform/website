@@ -13,7 +13,8 @@ By accessing the website at [https://nutshell.social](https://nutshell.social), 
     4.  remove any copyright or other proprietary notations from the materials; or
     5.  transfer the materials to another person or "mirror" the materials on any other server.
 2.  This license shall automatically terminate if you violate any of these restrictions and may be terminated by MMOH at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.
-3.  Content on the platform
+3.  There is no tolerance for objectionable content or abusive users
+4.  Content on the platform
     1. You are responsible for your use of the Services and for any Content you provide, including compliance with applicable laws, rules, and regulations. You should only provide Content that you are comfortable sharing with others.
     2. We reserve the right to remove Content that violates the User Agreement, including for example, copyright or trademark violations or other intellectual property misappropriation, impersonation, unlawful conduct, or harassment.
 
