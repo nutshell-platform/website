@@ -9,36 +9,37 @@ html( lang=content.lang )
 			div#hero.center
 				img( src='/assets/undraw_people_tax5-cropped.svg' ).cover
 				h1 Nutshell
-				h2 Slowcial media. One message a week from people you care about
+				h2 Slowcial media - One message a week from people you care about
+				include pug/_about.pug
+				h2.center Try Nutshell now!
 				include pug/_ctas.pug
 
 			//- Release section
 			section
 				div.description
-					h2 Only on mondays
-					p Messages are released once a week. You have all week to read your messages.
+					h2 Only on Mondays
+					p Nutshells are released once a week, and you will have all week to read what your friends have been up to.
 				img( src='/assets/undraw_friends_online_klj6.svg' ).cover.right
 
 			//- Writing section
 			section
 				div.description.end
 					h2 Write all week
-					p You can draft and edit your message all week long and set it to auto-publish next monday
+					p You can draft and edit your message all week long and set it to auto-publish next Monday.
 				img( src='/assets/undraw_typewriter_i8xd.svg' ).cover.left
 
 			//- Release section
 			section
 				div.description
 					h2 Skimmable format
-					p Every message can be collapsed/expanded so you can focus on what you care about
+					p Every message can be collapsed or expanded so you can focus on what you care about.
 				img( src='/assets/undraw_team_chat_y27k.svg' ).cover.right
 
-
+			//- Get started section
 			section
 				div.description.end
-					h2.center Get started now
+					h2.center Get started now!
 					include pug/_ctas.pug
 				img( src='/assets/undraw_through_the_park_lxnl.svg' ).cover.left
-
 
 		include pug/_footer.pug
