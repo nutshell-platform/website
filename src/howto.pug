@@ -1,0 +1,15 @@
+- const page = { title: 'Nutshell', desc: 'How to Nutshell', published: '2020-06-13', url: '/howto.html', featuredimg: '/image.jpg' }
+doctype html
+
+html( lang=content.lang )
+	include pug/_header.pug
+	body
+		main
+			div.button
+				a( href='/' ) Back to home
+			div.reading
+				include:markdown-it markdown/howto.md
+			div.button
+				a( href='/' ) Back to home
+				
+		include pug/_footer.pug
