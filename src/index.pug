@@ -5,12 +5,14 @@ html( lang=content.lang )
 	body
 		main
 
+			//- Menu bar
+			include pug/_menu.pug
+
 			//- Hero bar
 			div#hero.center
 				img( src='/assets/undraw_people_tax5-cropped.svg' ).cover
 				h1 Nutshell
 				h2 Slowcial media - One message a week from people you care about
-				include pug/_about.pug
 				h2.center Try Nutshell now!
 				include pug/_ctas.pug
 
