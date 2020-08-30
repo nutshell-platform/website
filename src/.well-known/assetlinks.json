@@ -1,0 +1,10 @@
+[ {
+  "relation": [ "delegate_permission/common.handle_all_urls" ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.nutshell.nutshell",
+    "sha256_cert_fingerprints": [
+    	"3A:82:5A:A8:15:F8:E2:C8:73:C4:F8:F5:A2:9B:E9:C6:F6:74:06:A0:1F:A6:E8:64:C3:CD:75:71:6B:5A:7B:4A"
+    ]
+  }
+} ]
