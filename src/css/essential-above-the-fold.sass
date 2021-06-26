@@ -123,6 +123,7 @@ section
 		padding: 4rem 3rem
 		opacity: .3
 
+	// Desc for use with aligned background
 	.description
 		width: 400px
 		max-width: 100%
@@ -134,6 +135,46 @@ section
 		p
 			font-size: 1.5rem
 			margin: .5rem 0
+	// Screenshot section
+	&.screenshot
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: space-evenly
+		// border-bottom: 2px solid grey
+		align-items: center
+
+		.cover
+			opacity: 0.1
+
+		.description
+			padding: 3rem 0
+
+		.phone
+			position: relative
+			border: 5px solid black
+			border-radius: 4.5vh
+			overflow: hidden
+			width: 300px
+			&::before
+				content: ''
+				position: absolute
+				width: 40%
+				height: 10px
+				top: 0
+				right: 30%
+				background: black
+				border-bottom-left-radius: 2.334vh
+				border-bottom-right-radius: 2.334vh
+				border: 1px solid white
+				border-top: none
+
+			img
+				margin: -25px 0 -5px
+				width: 100%
+			
+
+
 
 .cover
 	position: absolute

@@ -15,32 +15,50 @@ html( lang=content.lang )
 				h2 One message a week from people you care about
 				include pug/_ctas.pug
 
-			//- Release section
-			section
-				div.description
-					h2 Only on Mondays
-					p Nutshells are released once a week, and you will have all week to read what your friends have been up to.
-				img( src='/assets/undraw_friends_online_klj6.svg' ).cover.right
-
 			//- Writing section
-			section
-				div.description.end
+			section.screenshot
+				div.phone
+					img( src='/assets/6.5 Entry - Simulator Screen Shot - iPhone 11 Pro Max - 2021-06-25 at 14.44.14.png' )
+				div.description
 					h2 Write all week
 					p You can draft and edit your message all week long and set it to auto-publish next Monday.
+				
 				img( src='/assets/undraw_typewriter_i8xd.svg' ).cover.left
 
 			//- Release section
-			section
+			section.screenshot
 				div.description
-					h2 Skimmable format
-					p Every message can be collapsed or expanded so you can focus on what you care about.
+					h2 Read on Mondays
+					p Nutshells are released once a week in a skimmable format, and you will have all week to read what your friends have been up to.
+				div.phone
+					img( src='/assets/6.5 Profile - Simulator Screen Shot - iPhone 11 Pro Max - 2021-06-25 at 14.42.26.png' )
+				img( src='/assets/undraw_friends_online_klj6.svg' ).cover.right
+
+			
+
+			// - Release section
+			section.screenshot
+				div.phone
+					img( src='/assets/6.5 Settings - Simulator Screen Shot - iPhone 11 Pro Max - 2021-06-25 at 14.42.54.png' )
+				div.description
+					h2 Friends-only or open to the world
+					p Share with the world, or enable the "private account" feature where you have to accept follow-requests.
+				img( src='/assets/undraw_team_chat_y27k.svg' ).cover.right
+
+			// - Release section
+			section.screenshot
+				div.description
+					h2 AI Friend-finder
+					p Get friend suggestions based on your contact book or our friend-guesser AI.
+				div.phone
+					img( src='/assets/6.5 Friend Find - Simulator Screen Shot - iPhone 11 Pro Max - 2021-06-25 at 14.41.27.png' )
 				img( src='/assets/undraw_team_chat_y27k.svg' ).cover.right
 
 			//- Get started section
-			section
-				div.description.end
+			section.screenshot
+				div.description
 					h2.center Get started now!
 					include pug/_ctas.pug
-				img( src='/assets/undraw_through_the_park_lxnl.svg' ).cover.left
+				img( src='/assets/undraw_through_the_park_lxnl.svg' ).cover
 
 		include pug/_footer.pug
