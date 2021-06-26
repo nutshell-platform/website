@@ -112,7 +112,7 @@ section
 	max-width: 100%
 	// height: 500px
 	position: relative
-	padding: 12rem 5rem
+	padding: 2rem 5rem
 	margin: 3rem 0
 	display: flex
 	flex-direction: column
@@ -135,6 +135,7 @@ section
 		p
 			font-size: 1.5rem
 			margin: .5rem 0
+
 	// Screenshot section
 	&.screenshot
 		display: flex
@@ -144,11 +145,15 @@ section
 		// border-bottom: 2px solid grey
 		align-items: center
 
+		&.wrapreverse
+			flex-wrap: wrap-reverse
+
 		.cover
 			opacity: 0.1
 
 		.description
 			padding: 3rem 0
+			margin: 5rem 0
 
 		.phone
 			position: relative
