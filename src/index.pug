@@ -6,11 +6,12 @@ html( lang=content.lang )
 		main
 
 			//- Menu bar
-			include pug/_menu.pug
+			// include pug/_menu.pug
 
 			//- Hero bar
 			div#hero.center
 				img( src='/assets/undraw_people_tax5-cropped.svg' ).cover
+				img#logo( src="/assets/app-icon-solid-bg-512.png" )
 				h1 Nutshell
 				h2 One message a week from people you care about
 				include pug/_ctas.pug
@@ -55,7 +56,7 @@ html( lang=content.lang )
 				img( src='/assets/undraw_team_chat_y27k.svg' ).cover.right
 
 			//- Get started section
-			section.screenshot
+			section.screenshot#getstarted
 				div.description
 					h2.center Get started now!
 					include pug/_ctas.pug
